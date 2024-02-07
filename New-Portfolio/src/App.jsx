@@ -1,5 +1,5 @@
 import Border from "./components/Border/Border";
-import Hero from "./components/Hero/Main";
+import Hero from "./components/Main/Main";
 import Divider from "./components/Divider/Divider";
 import "./App.scss";
 

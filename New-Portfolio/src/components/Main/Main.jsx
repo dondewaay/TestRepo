@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="hero">
         <div>
           <h2>I'm Don</h2>
-          <Divider />
+          <Divider></Divider>
         </div>
       </div>
     </div>
