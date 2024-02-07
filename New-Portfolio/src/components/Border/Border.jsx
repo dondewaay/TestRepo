@@ -2,8 +2,13 @@ import "./Border.scss";
 
 export default function Border() {
   return (
-    <div className="border-container">
-      <h1>Don DeWaay</h1>
-    </div>
+    <>
+      <div className="top">
+        <h1>DON DEWAAY III</h1>
+      </div>
+      <div className="border-container">
+        <div className="gradient">{children}</div>
+      </div>
+    </>
   );
 }
