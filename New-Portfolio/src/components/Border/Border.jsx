@@ -1,5 +1,5 @@
-import "./Border.module.scss"
+import "./Border.module.scss";
 
 export default function Border() {
-    return 
+  return <div className="gradientBorder" />;
 }
