@@ -1,4 +1,5 @@
 import "./Border.scss";
+import MySVG from "./star.svg";
 
 export default function Border() {
   return (
