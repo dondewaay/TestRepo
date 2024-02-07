@@ -7,7 +7,9 @@ export default function Border() {
         <h1>DON DEWAAY III</h1>
       </div>
       <div className="border-container">
-        <div className="gradient">{children}</div>
+        <div className="gradient">
+          <div></div>
+        </div>
       </div>
     </>
   );
