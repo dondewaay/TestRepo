@@ -5,7 +5,7 @@ import "./App.scss";
 function App() {
   return (
     <>
-    <Border><Hero /></Border>
+      <Border />
     </>
   );
 }
