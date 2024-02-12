@@ -6,9 +6,9 @@ import "./Main.scss";
 const Main = () => {
   return (
     <div className="content">
-      <Section1 />
-      <Section2 />
-      <Section3 />
+      <section><Section1 /></section>
+      <section><Section2 /></section>
+      <section><Section3 /></section>
     </div>
   );
 };

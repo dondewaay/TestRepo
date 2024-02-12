@@ -3,7 +3,7 @@ import Divider from "../Divider/Divider";
 
 const Section1 = () => {
   return (
-    <div className="hero">
+    <div className="s1">
       <div>
         <h2>I'm Don</h2>
         <Divider />
