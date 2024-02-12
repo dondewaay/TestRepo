@@ -1,7 +1,6 @@
 import "./Border.scss";
-import MySVG from "./star.svg";
 
-export default function Border() {
+const Border = () => {
   return (
     <>
       <div className="top">
@@ -14,4 +13,6 @@ export default function Border() {
       </div>
     </>
   );
-}
+};
+
+export default Border;

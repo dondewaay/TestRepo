@@ -1,14 +1,14 @@
 import Border from "./components/Border/Border";
-import Hero from "./components/Main/Main";
+import Main from "./components/Main/Main";
 import "./App.scss";
 
-function App() {
+const App = () => {
   return (
     <>
       <Border />
-      <Hero />
+      <Main />
     </>
   );
-}
+};
 
 export default App;
