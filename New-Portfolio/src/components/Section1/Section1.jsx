@@ -4,14 +4,17 @@ import Divider from "../Divider/Divider";
 const Section1 = () => {
   return (
     <div className="s1">
-      <div>
-        <h2>I'm Don</h2>
-        <Divider />
+      <div className="lside">
         <h2>
-          Frontend Dev &<br />
-          Creative
+          I'm Don 🦋
+          <Divider />
         </h2>
+        <p>
+          Frontend Developer &<br />
+          Creative
+        </p>
       </div>
+      <div className="rside"></div>
     </div>
   );
 };
