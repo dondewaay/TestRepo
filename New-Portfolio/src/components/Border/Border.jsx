@@ -4,7 +4,9 @@ const Border = () => {
   return (
     <>
       <div className="top">
-        <h1>Don DeWaay III</h1>
+        <a href="/">
+          <h1>Don DeWaay III</h1>
+        </a>
       </div>
       <div className="border-container">
         <div className="gradient">
