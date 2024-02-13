@@ -13,6 +13,7 @@ $redtext: #f24141;
   padding-left: 1.5rem;
   margin-top: 0.5rem;
   transition: 0.2s ease-in-out;
+  z-index: 999;
   a {
     text-decoration: none;
   }
@@ -37,6 +38,7 @@ $redtext: #f24141;
   box-sizing: border-box;
   pointer-events: none;
   transition: 0.2s ease-in-out;
+  z-index: 999;
   .gradient {
     z-index: 999;
     border: 10px solid;
