@@ -1,3 +1,10 @@
+$blueborder: linear-gradient(to top right, #7db3ff, #0728e3);
+$bluetext: #416cf2;
+$goldborder: linear-gradient(to top right, #ffcf7d, #e39d07);
+$goldtext: #ffaf26;
+$redborder: linear-gradient(to top right, #ff7d7d, #ff0000);
+$redtext: #f24141;
+
 .top {
   position: fixed;
   top: 0;
@@ -5,8 +12,9 @@
   flex-direction: row;
   padding-left: 1.5rem;
   margin-top: 0.5rem;
+  transition: 0.2s ease-in-out;
   h1 {
-    color: #416cf2;
+    color: $bluetext;
     font-style: italic;
     font-size: 24;
     font-weight: 300;
@@ -24,12 +32,13 @@
   padding-top: 3rem;
   box-sizing: border-box;
   pointer-events: none;
+  transition: 0.2s ease-in-out;
   .gradient {
     z-index: 999;
     border: 10px solid;
     border-image-slice: 1;
     border-width: 4px;
-    border-image-source: linear-gradient(to top right, #7db3ff, #0728e3);
+    border-image-source: $blueborder;
     height: 100%;
   }
 }
