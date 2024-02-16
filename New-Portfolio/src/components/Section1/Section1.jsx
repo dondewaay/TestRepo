@@ -5,23 +5,15 @@ const Section1 = () => {
   return (
     <div className="s1">
       <div className="lside">
-        <h2>
+        <h1>
           I'm Don 🦋
           <Divider />
-        </h2>
-        <h1>
-          <span></span>
-          <span>
-            &nbsp;pop
-            <span class="pops">
-              <span class="pop"></span>
-              <span class="pop"></span>
-              <span class="pop"></span>
-              <span class="pop"></span>
-              <span class="pop"></span>
-            </span>
-          </span>
         </h1>
+        <h2>
+          Building Designs
+          <br />
+          That <span className="gradient">Flow</span>
+        </h2>
       </div>
       <div className="rside"></div>
     </div>

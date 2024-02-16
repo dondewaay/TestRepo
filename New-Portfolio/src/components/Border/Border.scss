@@ -1,5 +1,5 @@
-$blueborder: linear-gradient(to top right, #7db3ff, #0728e3);
-$bluetext: #416cf2;
+$blueborder: linear-gradient(45deg, aqua, blue);
+$bluetext: #00A8FF;
 $goldborder: linear-gradient(to top right, #ffcf7d, #e39d07);
 $goldtext: #ffaf26;
 $redborder: linear-gradient(to top right, #ff7d7d, #ff0000);
@@ -21,7 +21,7 @@ $redtext: #f24141;
     color: $bluetext;
     font-style: italic;
     font-size: 24;
-    font-weight: 300;
+    font-weight: 500;
     width: 300px;
     cursor: pointer;
   }

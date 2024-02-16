@@ -12,7 +12,7 @@ const Section2 = () => {
       <div className="lside"></div>
       <div className="rside">
         <p>
-          Experience in HTML, CSS, JavaScript, React.js, Three.js, Python, Java,
+          Experience in HTML, CSS, SASS, JavaScript, React.js, Three.js, Python, Java,
           Haskell, and C
         </p>
       </div>
