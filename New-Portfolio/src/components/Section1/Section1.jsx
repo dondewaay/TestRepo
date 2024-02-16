@@ -9,11 +9,19 @@ const Section1 = () => {
           I'm Don 🦋
           <Divider />
         </h2>
-        <p>
-          Building Design
-          <br />
-          That Pops
-        </p>
+        <h1>
+          <span></span>
+          <span>
+            &nbsp;pop
+            <span class="pops">
+              <span class="pop"></span>
+              <span class="pop"></span>
+              <span class="pop"></span>
+              <span class="pop"></span>
+              <span class="pop"></span>
+            </span>
+          </span>
+        </h1>
       </div>
       <div className="rside"></div>
     </div>

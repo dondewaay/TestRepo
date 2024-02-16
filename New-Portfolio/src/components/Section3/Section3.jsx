@@ -10,8 +10,10 @@ const Section3 = () => {
           <Divider />
         </h2>
         <p>
-          I graduated from the University of Iowa with a degree in Computer
-          Science and a minor in the field of Psychology
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+          eveniet, quibusdam explicabo culpa ipsam mollitia impedit magni?
+          Molestias optio sed fugit mollitia, asperiores sunt nesciunt? Dolorem
+          error sequi rerum voluptates.
         </p>
       </div>
       <div className="rside"></div>
