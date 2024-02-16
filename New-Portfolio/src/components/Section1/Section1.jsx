@@ -10,8 +10,9 @@ const Section1 = () => {
           <Divider />
         </h2>
         <p>
-          Frontend Developer &<br />
-          Creative
+          Building Design
+          <br />
+          That Pops
         </p>
       </div>
       <div className="rside"></div>
