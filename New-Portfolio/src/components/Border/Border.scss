@@ -1,5 +1,5 @@
 $blueborder: linear-gradient(45deg, aqua, blue);
-$bluetext: #00A8FF;
+$bluetext: #00a8ff;
 $goldborder: linear-gradient(to top right, #ffcf7d, #e39d07);
 $goldtext: #ffaf26;
 $redborder: linear-gradient(to top right, #ff7d7d, #ff0000);
@@ -12,7 +12,6 @@ $redtext: #f24141;
   flex-direction: row;
   padding-left: 1.5rem;
   margin-top: 0.5rem;
-  transition: 0.2s ease-in-out;
   z-index: 999;
   a {
     text-decoration: none;
@@ -37,7 +36,6 @@ $redtext: #f24141;
   padding-top: 3rem;
   box-sizing: border-box;
   pointer-events: none;
-  transition: 0.2s ease-in-out;
   z-index: 999;
   .gradient {
     z-index: 999;

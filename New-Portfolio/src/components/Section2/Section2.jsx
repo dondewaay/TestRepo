@@ -12,8 +12,8 @@ const Section2 = () => {
       <div className="lside"></div>
       <div className="rside">
         <p>
-          Experience in HTML, CSS, SASS, JavaScript, React.js, Three.js, Python, Java,
-          Haskell, and C
+          Experience in HTML, CSS, SASS, JavaScript, React.js, Three.js, React
+          Framer Motion, Python, Java, Haskell, and C
         </p>
       </div>
     </div>
