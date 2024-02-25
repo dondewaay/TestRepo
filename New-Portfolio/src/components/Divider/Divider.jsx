@@ -7,7 +7,7 @@ const Divider = () => {
       className="divider"
       initial={{ x: 75, opacity: 0 }}
       animate={{ x: 0, opacity: 1 }}
-      transition={{ delay: 0.3, duration: 0.5 }}
+      transition={{ delay: 0.5, duration: 0.5 }}
     ></motion.div>
   );
 };

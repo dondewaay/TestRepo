@@ -13,7 +13,7 @@ const Section1 = () => {
         <motion.h2
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ type: "spring", delay: 0.4, duration: 1.5 }}
+          transition={{ type: "spring", delay: 0.6, duration: 1.5 }}
         >
           Building Designs
           <br />

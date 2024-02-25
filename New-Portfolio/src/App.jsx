@@ -5,7 +5,10 @@ import "./App.scss";
 const App = () => {
   return (
     <>
-      <Border />
+      <Border trans="0" />
+      <Border trans="0.1" />
+      <Border trans="0.2" />
+      <Border trans="0.3" />
       <Main />
     </>
   );
