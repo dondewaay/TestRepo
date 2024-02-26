@@ -1,7 +1,7 @@
-$blueborder: linear-gradient(#1c1814, #1c1814);
-$blueborder: linear-gradient(45deg, aqua, blue);
-$bluetext: #1c1814;
-$bluetext: #00a8ff;
+$border: linear-gradient(#1c1814, #1c1814);
+$border: linear-gradient(45deg, aqua, blue);
+$text: #1c1814;
+$text: #00a8ff;
 $goldborder: linear-gradient(to top right, #ffcf7d, #e39d07);
 $goldtext: #ffaf26;
 $redborder: linear-gradient(to top right, #ff7d7d, #ff0000);
@@ -19,7 +19,7 @@ $redtext: #f24141;
     text-decoration: none;
   }
   h1 {
-    color: $bluetext;
+    color: $text;
     font-style: italic;
     font-size: 24;
     font-weight: 500;
@@ -44,27 +44,7 @@ $redtext: #f24141;
     border: 10px solid;
     border-image-slice: 1;
     border-width: 4px;
-    border-image-source: $blueborder;
+    border-image-source: $border;
     height: 100%;
   }
-}
-.toggle {
-  font-size: 30px;
-  position: absolute;
-  bottom: 2rem;
-  left: 2rem;
-  background: #101010;
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  background-image: linear-gradient(45deg, aqua, rgb(0, 213, 255));
-}
-
-.page {
-  font-size: 40px;
-  position: absolute;
-  rotate: 90deg;
-  bottom: 6rem;
-  right: 2rem;
-  color: #1059ff;
 }

@@ -4,6 +4,9 @@ import { motion } from "framer-motion";
 
 const Section1 = () => {
   const [isDark, setIsDark] = useState(true);
+
+  function setIsDark() {}
+
   return (
     <div className="s1">
       <div className="lside">
@@ -25,7 +28,22 @@ const Section1 = () => {
       <div className="rside">
         <img src="/img/don.png" alt="Me!" />
       </div>
-
+      <motion.div
+        initial={{ rotate: 90, y: 200 }}
+        animate={{ y: 0 }}
+        transition={{ delay: 1.5, duration: 0.7 }}
+        className="page"
+      >
+        Main
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 1.2, duration: 1 }}
+        className="toggle"
+      >
+        🌙
+      </motion.div>
     </div>
   );
 };

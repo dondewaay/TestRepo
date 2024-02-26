@@ -20,12 +20,8 @@ const Border = ({ trans }) => {
         animate={{ scale: 1.0 }}
         transition={{ type: "spring", delay: trans, duration: 1.5 }}
       >
-        <div className="gradient">
-          <div></div>
-        </div>
+        <div className="gradient"></div>
       </motion.div>
-      <motion.div className="page">Main</motion.div>
-      <div className="toggle">🌙</div>
     </>
   );
 };

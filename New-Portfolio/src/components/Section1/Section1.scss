@@ -67,4 +67,26 @@
 img {
   width: 400px;
   height: auto;
+  border-radius: 250px;
+}
+
+.toggle {
+  cursor: pointer;
+  font-size: 30px;
+  position: absolute;
+  bottom: 2.5rem;
+  left: 2.5rem;
+  background: #101010;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(45deg, aqua, rgb(0, 213, 255));
+}
+.page {
+  text-align: right;
+  font-size: 40px;
+  position: absolute;
+  bottom: 4.5rem;
+  right: 1rem;
+  color: #1059ff;
 }
