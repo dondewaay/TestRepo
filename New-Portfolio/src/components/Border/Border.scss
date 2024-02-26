@@ -48,3 +48,23 @@ $redtext: #f24141;
     height: 100%;
   }
 }
+.toggle {
+  font-size: 30px;
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  background: #101010;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(45deg, aqua, rgb(0, 213, 255));
+}
+
+.page {
+  font-size: 40px;
+  position: absolute;
+  rotate: 90deg;
+  bottom: 6rem;
+  right: 2rem;
+  color: #1059ff;
+}

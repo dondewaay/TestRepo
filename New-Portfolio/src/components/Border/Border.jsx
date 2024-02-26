@@ -24,6 +24,8 @@ const Border = ({ trans }) => {
           <div></div>
         </div>
       </motion.div>
+      <motion.div className="page">Main</motion.div>
+      <div className="toggle">🌙</div>
     </>
   );
 };

@@ -1,26 +1,31 @@
+import { useState } from "react";
 import "./Section1.scss";
-import Divider from "../Divider/Divider";
 import { motion } from "framer-motion";
 
 const Section1 = () => {
+  const [isDark, setIsDark] = useState(true);
   return (
     <div className="s1">
       <div className="lside">
-        <h1>
-          I'm Don 🦋
-          <Divider />
-        </h1>
-        <motion.h2
-          initial={{ opacity: 0, y: 100 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ type: "spring", delay: 0.6, duration: 1.5 }}
-        >
-          Building Designs
-          <br />
-          That <span className="gradient">Flow&nbsp;</span>
-        </motion.h2>
+        <div className="main-content">
+          <h2>
+            Hi! I'm <span className="gradient">&nbsp;Don&nbsp;</span>👋
+          </h2>
+          <motion.h3
+            initial={{ opacity: 0, y: 100 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ type: "spring", delay: 0.6, duration: 1.5 }}
+          >
+            I Build Web Designs
+            <br />
+            That <span className="gradient">&nbsp;Flow&nbsp;</span>
+          </motion.h3>
+        </div>
       </div>
-      <div className="rside"></div>
+      <div className="rside">
+        <img src="/img/don.png" alt="Me!" />
+      </div>
+
     </div>
   );
 };

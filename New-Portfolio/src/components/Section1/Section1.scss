@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
 .s1 {
   width: 100%;
   height: 100vh;
@@ -10,36 +12,59 @@
   .lside {
     width: 60%;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: left;
     justify-content: center;
   }
   .rside {
     width: 40%;
   }
-  h1 {
-    position: absolute;
-    left: 4rem;
-    top: 5rem;
-    font-size: 4rem;
-    color: white;
-    font-family: Helvetica;
-  }
-  h2 {
-    white-space: nowrap;
-    color: white;
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 6rem;
-    width: 550px;
-    .gradient {
-      font-family: "Attena";
-      font-style: italic;
-      font-size: 9rem;
-      background: #101010;
-      -webkit-background-clip: text;
-      background-clip: text;
-      color: transparent;
-      background-image: linear-gradient(45deg, aqua, blue);
+  .main-content {
+    h1 {
+      position: absolute;
+      left: 5rem;
+      top: 5rem;
+      font-size: 3rem;
+      color: white;
+      font-family: "Inter";
+    }
+    h2 {
+      white-space: nowrap;
+      color: white;
+      font-family: "Inter";
+      font-weight: bold;
+      font-size: 56px;
+      width: 550px;
+      .gradient {
+        font-family: serif;
+        font-style: italic;
+        font-size: 90px;
+        background: #101010;
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        background-image: linear-gradient(45deg, aqua, blue);
+      }
+    }
+    h3 {
+      font-size: 40px;
+      color: white;
+      font-family: "Inter";
+      .gradient {
+        font-size: 70px;
+        font-style: italic;
+        font-family: serif;
+        background: #101010;
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        background-image: linear-gradient(45deg, aqua, blue);
+      }
     }
   }
+}
+
+img {
+  width: 400px;
+  height: auto;
 }
