@@ -5,8 +5,6 @@ import { motion } from "framer-motion";
 const Section1 = () => {
   const [isDark, setIsDark] = useState(true);
 
-  function setIsDark() {}
-
   return (
     <div className="s1">
       <div className="lside">
