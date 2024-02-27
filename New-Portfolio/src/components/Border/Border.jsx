@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Border = ({ trans }) => {
   return (
-    <>
+    <div className="border-div">
       <motion.div
         className="top"
         initial={{ x: -50, y: -50 }}
@@ -22,7 +22,7 @@ const Border = ({ trans }) => {
       >
         <div className="gradient"></div>
       </motion.div>
-    </>
+    </div>
   );
 };
 

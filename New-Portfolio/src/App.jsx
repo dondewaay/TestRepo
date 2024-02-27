@@ -1,5 +1,6 @@
 import Border from "./components/Border/Border";
 import Main from "./components/Main/Main";
+import { motion } from "framer-motion";
 import "./App.scss";
 
 const App = () => {
