@@ -10,12 +10,12 @@ const Section1 = () => {
       <div className="lside">
         <div className="main-content">
           <h2>
-            Hi! I'm<span className="gradient">&nbsp;Don&nbsp;</span>👋
+            Hi! I'm<span className="gradient">&nbsp;Don&nbsp;</span>
           </h2>
           <motion.h3
-            initial={{ opacity: 0, y: 100 }}
+            initial={{ opacity: 0, y: 70 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ type: "spring", delay: 0.6, duration: 1.5 }}
+            transition={{ type: "ease", delay: 0.6, duration: 0.8 }}
           >
             I Build Web Designs
             <br />

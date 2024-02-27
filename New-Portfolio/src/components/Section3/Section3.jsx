@@ -5,10 +5,6 @@ const Section3 = () => {
   return (
     <div className="s3">
       <div className="lside">
-        <h2>
-          Education
-          <Divider />
-        </h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
           eveniet, quibusdam explicabo culpa ipsam mollitia impedit magni?

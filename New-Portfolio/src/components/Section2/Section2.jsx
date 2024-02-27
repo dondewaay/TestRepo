@@ -4,11 +4,6 @@ import "./Section2.scss";
 const Section2 = () => {
   return (
     <div className="s2">
-      <h2>
-        Languages &<br />
-        Technologies
-        <Divider />
-      </h2>
       <div className="lside"></div>
       <div className="rside">
         <p>
